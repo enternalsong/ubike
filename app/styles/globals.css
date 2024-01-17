@@ -1,0 +1,238 @@
+body, html{
+  width:100%;
+  overflow-x: hidden;
+}
+.mr-auto{
+  margin-right: auto;
+}
+.mt-2{
+  margin-top:41px;
+}
+.fc-secondary{
+  color:#677510;
+}
+.fc-primary{
+  color:#B5CC22;
+}
+.container{
+  max-width: 1000px;
+}
+/* Navbar*/
+.logoImg{
+  width:95px;
+  height: 95px;
+}
+.navLine{
+  border-bottom: 1px solid #EBEBEB;
+  background-color: white;
+  height:95px;
+}
+
+.navbar{
+  height:95px;
+
+}
+.navbar-collapse .nav-link{
+  font-size:18px;
+  line-height:24px;
+  color:#677510;
+}
+.navbar-collapse .nav-link:hover{
+  color: #B5CC22;
+}
+.btn-login{
+  width:85px;
+  height:40px;
+  border-radius:100px;
+  border:0px;
+  background-color:#B5CC22;
+  color:white;
+}
+.btn-login:hover{
+  background-color:#9DB022;
+}
+
+
+
+/*InfoBar*/
+
+.InfoBox{
+  margin-top:41px;
+  margin-bottom:10px;
+
+}
+.areaRow{
+  margin-bottom:50px;
+}
+.box{
+  margin-bottom:20px;
+  position:relative;
+}
+.title{
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom:32px;
+}
+.selectCity{
+  width:175px;
+  height:40px;
+  background-color:#F6F6F6;
+  padding: 8px 16px 8px 16px;
+  margin-right:16px;
+  border: 0px;
+}
+.searchInput{
+  border:0px;
+  color:black;
+  height:40px;
+  width: 277px;
+  background-color:#F6F6F6;
+  padding: 8px 16px 8px 16px;
+}
+.search-btn{
+  height: 40px;
+  width: 40px;
+  color: #757575;
+  background-color: #f6f6f6;
+  border: 0px;
+}
+.search-btn:hover{
+  background-color: #B5CC22;
+}
+
+.ubikePicsCol{
+  display:flex;
+  width:50%;
+}
+.frameImg{
+  width:auto;
+  height:auto;
+}
+.ubikePicsCol{
+  flex-direction: column-reverse;
+  
+}
+.table{
+  position:relative;
+  margin-top:15px;
+
+}
+.table .headrow{
+  background: #B5CC22; 
+  height:66px;
+  border-radius: 28px 28px 0 0;
+  display: flex;
+  flex-direction: row;
+  margin:0px;
+}
+
+.table .contentrow{
+  height:66px;
+  display: flex;
+  flex-direction: row;
+  border: 0.5px #AEAEAE solid;
+  margin:0px;
+
+  
+}
+.table .headcol{
+  color:white;
+  text-align:center;
+  padding:24px 10px 24px 10px;
+  font-size:18px;
+  line-height: 24px;
+}
+.table .contentcol{
+  text-align:center;
+  padding:24px 10px 24px 10px;
+  font-size:18px;
+  line-height: 24px;
+}
+.table .contentrow:nth-child(even){
+  background-color: white; 
+}
+.table .contentrow:nth-child(odd){
+  background-color: #f6f6f6; 
+}
+
+@media(max-width:768px){
+  .CheckBoxArea{
+    width:60%;
+  }
+  .ubikePicsCol{
+    width:40%;
+
+  }
+
+  .CheckBoxArea .col-3{
+    width: calc(100%/3);
+  }
+  /*Table*/
+
+  .table .headcol{
+    padding:24px 0px 24px 0px;
+    font-size:14px;
+    line-height: 24px;
+  }
+  .table .contentcol{
+    text-align:center;
+    padding:24px 0px 24px 0px;
+    font-size:14px;
+    line-height: 24px;
+  }  
+}
+
+@media(max-width:510px){
+/* CheckBox Area*/
+  .selectCity{
+    width:100%;
+    margin-bottom:15px;
+  }
+  .searchInput{
+    width:93%;
+  }
+  .search-btn{
+    width:7%;
+  }
+  .CheckBoxArea{
+    width:100%;
+  }
+  .ubikePicsCol{
+    display: none;
+    width:0%;
+  }
+  .frameImg{
+    display: none;
+  }
+  .CheckBoxArea .col-3{
+    width: calc(100%/3);
+  }
+
+  /*Table*/
+  .table .headcol{
+    color:white;
+    text-align:center;
+    padding:24px 0px 24px 0px;
+    font-size:14px;
+    line-height: 24px;
+  }
+  .table .contentcol{
+    text-align:center;
+    padding:24px 0px 24px 0px;
+    font-size:14px;
+    line-height: 24px;
+  }  
+  .table .mobilecol{
+    display:none;
+    width:0%;
+  }
+}
+
+
+
+
+
+
+
+
